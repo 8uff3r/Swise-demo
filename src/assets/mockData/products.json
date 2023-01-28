@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Hand Cream",
+    "desc": "Use These Hand creams to Sanitize your hands",
+    "img": "/src/assets/products/cream.webp"
+  },
+  {
+    "name": "Face Cream",
+    "desc": "Use These Face creams to Sanitize your face",
+    "img": "/src/assets/products/face.jpg"
+  },
+  {
+    "name": "Hair Shampoo",
+    "desc": "Use these hair shampoos to clean your hair",
+    "img": "/src/assets/products/facial.jpg"
+  },
+  {
+    "name": "Body Shampoo",
+    "desc": "Use these body shampoos to clean your body",
+    "img": "/src/assets/products/cream.webp"
+  },
+  {
+    "name": "Skin Shampoo",
+    "desc": "Use these skin shampoos to clean your skin",
+    "img": "/src/assets/products/skin.png"
+  },
+  {
+    "name": "Facial Shampoo",
+    "desc": "Use these facial shampoos to clean your face",
+    "img": "/src/assets/products/cream.webp"
+  },
+  {
+    "name": "Eyebrows Shampoo",
+    "desc": "Use these eyebrows shampoos to clean your eyebrows",
+    "img": "/src/assets/products/cream.webp"
+  }
+]
