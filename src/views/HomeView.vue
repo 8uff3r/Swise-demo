@@ -4,7 +4,7 @@
     <p class="text-xl font-bold my-8 ml-4">Popular Products</p>
     <carousel :breakpoints="breakpoints" :settings="settings" class="pb-4 mx-auto mt-8 relative w-[90%] select-none">
       <slide v-for="(product, i) in products" :key="i">
-        <product-card :product="product" v-if="products" :src="product.img" />
+        <product-card :product="product" v-if="products" :src="getImageUrl(`products/${product.img}`)" />
       </slide>
       <template #addons>
         <navigation class="mx-4 sm:block hidden" />
@@ -27,9 +27,14 @@ import MainCarousel from "../components/MainCarousel.vue";
 import { ref } from "vue";
 import ProductCard from "../components/ProductCard.vue";
 const products = ref(null);
+
+
+const getImageUrl = (name) => {
+  return new URL(`../assets/${name}`, import.meta.url).href;
+}
 function productLoad() {
   axios
-    .get("/src/assets/mockData/products.json")
+    .get(getImageUrl("mockData/products.json"))
     .then((res) => (products.value = res.data));
 }
 productLoad();

@@ -15,7 +15,7 @@
     </div>
     <div class="navbar-center">
       <a class="relative normal-case border-none w-36 lg:w-56 btn btn-ghost hover:bg-inherit">
-        <img src="../assets/logos/logo_name.png" class="" />
+        <img :src="getImageUrl('logos/logo_name.png')" class="" />
       </a>
     </div>
     <div class="navbar-end [&_label]:lg:space-x-2 [&>*]:space-x-0 space-x-2">
@@ -160,9 +160,13 @@
   </vue-final-modal>
 </template>
 <script setup>
+import helpers from "../helpers.js"
 import { inject, ref } from "vue";
 import { VueFinalModal } from "vue-final-modal";
 import UserDrop from "../components/UserDrop.vue";
+const getImageUrl = (name) => {
+  return new URL(`../assets/${name}`, import.meta.url).href;
+}
 const $vfm = inject("$vfm");
 const show = ref(false);
 </script>

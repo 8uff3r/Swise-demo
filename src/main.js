@@ -32,7 +32,6 @@ app.config.globalProperties.window = window;
 app.config.globalProperties.document = document;
 app.use(createPinia());
 app.component("font-awesome-icon", FontAwesomeIcon);
-
 app.component("FlickingComp", Flicking);
 app.use(router);
 app.use(vfmPlugin);

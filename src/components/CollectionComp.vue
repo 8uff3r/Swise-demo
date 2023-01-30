@@ -27,7 +27,7 @@
             <ul class="grid grid-cols-2 gap-4">
               <li>
                 <a href="#" class="block group">
-                  <img src="../assets/banners/4b.png" alt="" class="object-cover w-full rounded aspect-square" />
+                  <img src="../assets/banners/4b.jpg" alt="" class="object-cover w-full rounded aspect-square" />
 
                   <div class="mt-3">
                     <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
@@ -41,7 +41,7 @@
 
               <li>
                 <a href="#" class="block group">
-                  <img src="../assets/banners/3b.png" alt="" class="object-cover w-full rounded aspect-square" />
+                  <img src="../assets/banners/3b.jpg" alt="" class="object-cover w-full rounded aspect-square" />
 
                   <div class="mt-3">
                     <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">

@@ -11,7 +11,7 @@
 
         <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
           <div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-            <img alt="Party" src="../assets/banners/2.png" class="absolute inset-0 h-full w-full object-cover" />
+            <img alt="Party" src="../assets/banners/2.jpg" class="absolute inset-0 h-full w-full object-cover" />
           </div>
 
           <div class="lg:py-16">
