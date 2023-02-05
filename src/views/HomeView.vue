@@ -10,7 +10,7 @@
         <navigation class="mx-4 hidden sm:block" />
         <!-- <pagination /> -->
       </template>
-    </carousel>a
+    </carousel>
     <CollectionComp />
     <SectionComp />
     <TestimonialsComp />
@@ -23,6 +23,7 @@ import TestimonialsComp from "../components/TestimonialsComp.vue";
 import SectionComp from "../components/SectionComp.vue";
 import CollectionComp from "../components/CollectionComp.vue";
 import { Carousel, Slide, Navigation } from "vue3-carousel";
+import <script>
 import MainCarousel from "../components/MainCarousel.vue";
 import { ref } from "vue";
 import ProductCard from "../components/ProductCard.vue";
